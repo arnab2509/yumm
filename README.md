@@ -61,5 +61,9 @@ CLOUDINARY_UPLOAD_PRESET_ITEM=food_item_upload
 
 
 Let me know if you'd like me to save this as a `.md` file or add any GitHub badges or deployment instructions!
+## 📧 Contact
 
+**Arnab Mondal**  
+📧 arnabmondal2509@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/arnabmondal2509) | [Portfolio](https://arnab2509.github.io/)
 
