@@ -460,6 +460,8 @@ class _ViewitemState extends State<Viewitem> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    SizedBox(height: 10),
+
                     Text(
                       doc["Name"] ?? "Unknown Item",
                       style: AppWidget.getBoldBlackHeadingTextStyle(),
@@ -485,6 +487,7 @@ class _ViewitemState extends State<Viewitem> {
                     //   ],
                     // ),
                     Row(
+
   mainAxisAlignment: MainAxisAlignment.spaceBetween,
   children: [
     Row(
@@ -504,6 +507,7 @@ class _ViewitemState extends State<Viewitem> {
       onPressed: () => _deleteItem(doc),
       tooltip: "Delete Item",
     ),
+
   ],
 ),
 
@@ -524,7 +528,10 @@ class _ViewitemState extends State<Viewitem> {
                           ),
                         ),
                       ),
+                    SizedBox(height: 10),
+                      
                     ],
+
                   ],
                 ),
               ),
